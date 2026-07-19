@@ -18,6 +18,7 @@ Worked examples that pair with the technical posts on [speechify.ai/blog](https:
 | [`deepgram-voice-agent-shim/`](./deepgram-voice-agent-shim) | Go shim + Node | Points Deepgram Voice Agent at the `tts-shims` OpenAI-compatible proxy so it speaks with a Speechify voice, key held server-side. |
 | [`vapi-custom-voice/`](./vapi-custom-voice) | Go shim | Points Vapi custom voice at the `tts-shims` Vapi-compatible proxy so it speaks with Speechify raw PCM, key held server-side. |
 | [`pipecat-agent-speechify/`](./pipecat-agent-speechify) | Python (Pipecat) | Real-time voice pipeline using Pipecat with Deepgram STT, Anthropic Claude, and Speechify TTS through `SpeechifyTTSService`. |
+| [`mastra-agent-speechify/`](./mastra-agent-speechify) | TypeScript (Mastra) | Mastra `Agent` that speaks its replies with Speechify's `simba-3.2` model via `@mastra/voice-speechify` and the curated `harper_32` voice. Text-in, speech-out REPL. |
 
 ## Get an API key
 
