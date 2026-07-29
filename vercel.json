@@ -13,6 +13,10 @@
     "ai-sdk-speechify-speech": {
       "root": "demos/ai-sdk-speechify-speech/",
       "framework": "nextjs"
+    },
+    "multilingual-voiceover": {
+      "root": "demos/multilingual-voiceover/",
+      "framework": "nextjs"
     }
   },
   "rewrites": [
@@ -27,6 +31,10 @@
       "destination": {
         "service": "next-voice-cloning-app"
       }
+    },
+    {
+      "source": "/multilingual-voiceover/:path*",
+      "destination": { "service": "multilingual-voiceover" }
     },
     {
       "source": "/",
